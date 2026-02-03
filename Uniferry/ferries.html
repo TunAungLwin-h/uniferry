@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>UniFerry | University Vehicle Services</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+<header>
+    <h1>🎓 UniFerry</h1>
+    <p>University Transportation Services for Students</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="ferries.html" class="active">Vehicles</a>
+    <a href="schedule.html">Daily Schedule</a>
+</nav>
+
+
+<section class="section">
+    <div class="section-title">
+        <h2>Find a Vehicle Near You</h2>
+        <p>Search for university vehicles, check their routes, pickup points, and live positions.</p>
+    </div>
+
+    
+    <div class="search-box">
+        <input type="text" id="areaInput" placeholder="Enter your area (e.g. Hlaing)">
+        <input type="text" id="searchBox" placeholder="Search by vehicle name">
+    </div>
+
+ 
+    <div id="ferryList" class="ferry-grid"></div>
+</section>
+
+<footer>
+    <p>© 2026 UniFerry | University Student Transportation System</p>
+</footer>
+>
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

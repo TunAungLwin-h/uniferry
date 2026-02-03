@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    background: #f8fafc;
+    color: #1f2937;
+    line-height: 1.6;
+}
+
+
+header {
+    background: linear-gradient(90deg, #1e3a8a, #2563eb);
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.2rem;
+}
+
+header p {
+    opacity: 0.9;
+}
+
+
+nav {
+    background: #1e40af;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+.section {
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-title h2 {
+    font-size: 1.8rem;
+    color: #1e3a8a;
+}
+*/
+.hero {
+    background: white;
+    border-radius: 10px;
+    padding: 50px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+.hero h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 25px;
+    color: #4b5563;
+}
+
+.btn {
+    display: inline-block;
+    background: #2563eb;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #1e40af;
+}
+
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.feature-card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+.feature-card h3 {
+    color: #1e3a8a;
+    margin-bottom: 10px;
+}
+
+
+.search-box {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.search-box input {
+    padding: 12px;
+    width: 250px;
+    border-radius: 6px;
+    border: 1px solid #cbd5e1;
+}
+
+
+.ferry-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+.ferry-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+.ferry-card h3 {
+    color: #1e3a8a;
+    margin-bottom: 10px;
+}
+
+.badge {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.available {
+    background: #dcfce7;
+    color: #166534;
+}
+
+.unavailable {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #e5e7eb;
+    margin-top: 60px;
+    color: #374151;
+}
+.tracking-box {
+    margin-top: 15px;
+    padding: 12px;
+    background: #eff6ff;
+    border-left: 4px solid #2563eb;
+    border-radius: 6px;
+    font-size: 0.9rem;
+}
+
+.tracking-label {
+    font-weight: bold;
+    color: #1e3a8a;
+}
+.tracking-info {
+    margin-top: 8px;
+    color: #374151;
+}
+
+.ferry-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.ferry-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    padding: 20px;
+    transition: transform 0.2s;
+}
+
+.ferry-card:hover {
+    transform: translateY(-5px);
+}
+
+
+.badge {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.available {
+    background-color: #10b981;
+    color: white;
+}
+
+.unavailable {
+    background-color: #ef4444;
+    color: white;
+}
+
+
+.tracking-box {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    background-color: #f1f5f9;
+}
+
+
+.highlight {
+    background-color: #fde68a;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 3px;
+}
+
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #2563eb;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+    margin-top: 10px;
+    font-weight: 600;
+    transition: background-color 0.2s;
+}
+
+.btn:hover {
+    background-color: #1d4ed8;
+}
+
+
+.search-box {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.search-box input {
+    flex: 1;
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: 1px solid #cbd5e1;
+    font-size: 1rem;
+}
